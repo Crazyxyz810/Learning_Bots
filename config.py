@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 29136231
+API_HASH = "2d81e04fa4e10bfecb2fcdf6df7338d3"
+BOT_TOKEN = "7476488435:AAFmQXqVOYpT7c0TcPatdGYTqeMd_vQztKY"
+MONGO_DB_URI = "mongodb+srv://xyz997340:xyz997340@crazyxyz.10trhdr.mongodb.net/?retryWrites=true&w=majority&appName=Crazyxyz"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
+LOG_GROUP_ID =-1002203831308
+OWNER_ID = 7398407928
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -29,11 +29,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+SUPPORT_CHANNEL = getenv("https://t.me/Sukoon_Music", "")
+SUPPORT_GROUP = getenv("https://t.me/sukoon_music_Support", "")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("7398407928", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -68,7 +68,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "START_IMG_URL", "https://graph.org/file/feb14b113315795dbed64.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
@@ -96,11 +96,11 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your https://t.me/Sukoon_Music url is wrong. Please ensure that it starts with https://"
         )
 
 if SUPPORT_GROUP:
-    if not re.match("(?:http|https)://", SUPPORT_GROUP):
+    if not https://t.me/sukoon_music_Support://", SUPPORT_GROUP):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
