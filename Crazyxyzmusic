@@ -6,34 +6,35 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 29136231
+API_HASH = "2d81e04fa4e10bfecb2fcdf6df7338d3"
+BOT_TOKEN = "7476488435:AAG50u423oOJKdknfVJOV_X5vve9MWkgFAQ"
+MONGO_DB_URI = "mongodb+srv://xyz997340:xyz997340@crazyxyz.10trhdr.mongodb.net/?retryWrites=true&w=majority&appName=Crazyxyz
+"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
+LOG_GROUP_ID = -1002203831308 
+OWNER_ID = 7398407928
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("musicbot")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("https://github.com/Crazyxyz810/Crazyxyz.git")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO",
-    "https://github.com/Learningbots79/Learning_Bots",
+    "Crazyxyz.git",
+    "BQG8lWcAP7q10JhC0UpB1yXWFHniF49TwiVZqiOX43p2bp1kn-jDeEVaMa200sKEj8jnC20I9PG27HfDo4GE9zZD9f31mDMkFHkMisBUzpkxUbnqO2dVSiQb2RDitWJRFNLYz-EnjPevg_w3h3jqq62zFDA9TIwy9CuCEg9UaGNMPQaA_Zb42jST4KfAG-4sOmL7zlmrQVablg8DLFijESs6ex9dx5NXYpSv-HZC2v2n-kSAs4_REIbth9Z2Pbj1bGkQLOOQhcMMyOSy99TNTz5N6AMRSh9XQ5yvI99vURh8PfW9c-MzMMVyLQ6F9pMRwiHVooLrfWjtkqW8HEBZU4tfkKy6pAAAAAG4-r74AA",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+SUPPORT_CHANNEL = getenv("https://t.me/Sukoon_Music", "")
+SUPPORT_GROUP = getenv("", "https://t.me/sukoon_music_Support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("7398407928", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -52,7 +53,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = ""
+STRING1 = "BQG8lWcAP7q10JhC0UpB1yXWFHniF49TwiVZqiOX43p2bp1kn-jDeEVaMa200sKEj8jnC20I9PG27HfDo4GE9zZD9f31mDMkFHkMisBUzpkxUbnqO2dVSiQb2RDitWJRFNLYz-EnjPevg_w3h3jqq62zFDA9TIwy9CuCEg9UaGNMPQaA_Zb42jST4KfAG-4sOmL7zlmrQVablg8DLFijESs6ex9dx5NXYpSv-HZC2v2n-kSAs4_REIbth9Z2Pbj1bGkQLOOQhcMMyOSy99TNTz5N6AMRSh9XQ5yvI99vURh8PfW9c-MzMMVyLQ6F9pMRwiHVooLrfWjtkqW8HEBZU4tfkKy6pAAAAAG4-r74AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
